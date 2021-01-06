@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		DC9554E625A5E24F00FFE16B /* _ObservedObject_vs__EnvironmentObjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9554E525A5E24F00FFE16B /* _ObservedObject_vs__EnvironmentObjectApp.swift */; };
-		DC9554E825A5E24F00FFE16B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9554E725A5E24F00FFE16B /* ContentView.swift */; };
+		DC9554E825A5E24F00FFE16B /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9554E725A5E24F00FFE16B /* View1.swift */; };
 		DC9554EA25A5E25100FFE16B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9554E925A5E25100FFE16B /* Assets.xcassets */; };
 		DC9554ED25A5E25100FFE16B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9554EC25A5E25100FFE16B /* Preview Assets.xcassets */; };
+		DC9554F625A5ED7B00FFE16B /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9554F525A5ED7B00FFE16B /* View2.swift */; };
+		DC9554FA25A5EDAF00FFE16B /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9554F925A5EDAF00FFE16B /* ObservableObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC9554E225A5E24F00FFE16B /* @ObservedObject vs @EnvironmentObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "@ObservedObject vs @EnvironmentObject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9554E525A5E24F00FFE16B /* _ObservedObject_vs__EnvironmentObjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _ObservedObject_vs__EnvironmentObjectApp.swift; sourceTree = "<group>"; };
-		DC9554E725A5E24F00FFE16B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC9554E725A5E24F00FFE16B /* View1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
 		DC9554E925A5E25100FFE16B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC9554EC25A5E25100FFE16B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC9554EE25A5E25100FFE16B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9554F525A5ED7B00FFE16B /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		DC9554F925A5EDAF00FFE16B /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				DC9554E525A5E24F00FFE16B /* _ObservedObject_vs__EnvironmentObjectApp.swift */,
-				DC9554E725A5E24F00FFE16B /* ContentView.swift */,
+				DC9554F925A5EDAF00FFE16B /* ObservableObject.swift */,
+				DC9554E725A5E24F00FFE16B /* View1.swift */,
+				DC9554F525A5ED7B00FFE16B /* View2.swift */,
 				DC9554E925A5E25100FFE16B /* Assets.xcassets */,
 				DC9554EE25A5E25100FFE16B /* Info.plist */,
 				DC9554EB25A5E25100FFE16B /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9554E825A5E24F00FFE16B /* ContentView.swift in Sources */,
+				DC9554E825A5E24F00FFE16B /* View1.swift in Sources */,
+				DC9554F625A5ED7B00FFE16B /* View2.swift in Sources */,
+				DC9554FA25A5EDAF00FFE16B /* ObservableObject.swift in Sources */,
 				DC9554E625A5E24F00FFE16B /* _ObservedObject_vs__EnvironmentObjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import SwiftUI
 struct _ObservedObject_vs__EnvironmentObjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            View1().environmentObject(ObservableObjectExample())
         }
     }
 }
